@@ -37,13 +37,6 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       zksync: true,
-      accounts: [
-        {
-          privateKey:
-            "0x90e1a1a1153135cd46cf932b190eceda71f3f364cad5daa3de7210a23dd1fd83",
-          balance: ethers.parseEther("100000").toString(),
-        },
-      ],
     },
     abstractTestnet: {
       url: "https://api.testnet.abs.xyz",
